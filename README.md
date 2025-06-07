@@ -1,1 +1,1 @@
-# IMDB_SQL_Project
+# IMDb SQL Query
