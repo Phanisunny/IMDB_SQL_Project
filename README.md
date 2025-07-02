@@ -1,4 +1,4 @@
-##IMDb SQL Project
+# IMDb SQL Project
 📚 Project Description
 This project involves solving a comprehensive set of SQL queries on an IMDb movie dataset. It covers: 1.Basic Joins 2.Inner Joins 3.Left Joins 4.Right Joins 5.Complex Joins (Multiple Joins) 6..Partition By and Window Functions
 
