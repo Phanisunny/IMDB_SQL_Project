@@ -1,10 +1,10 @@
 # IMDb SQL Project
-📚 Project Description
+# 📚 Project Description
 This project involves solving a comprehensive set of SQL queries on an IMDb movie dataset. It covers: 1.Basic Joins 2.Inner Joins 3.Left Joins 4.Right Joins 5.Complex Joins (Multiple Joins) 6..Partition By and Window Functions
 
 The goal is to practice and demonstrate SQL skills using real-world movie data.
 
-📂 Dataset Description
+# 📂 Dataset Description
 The dataset includes the following tables (provided separately as CSV files):
 
 movie: Information about movies (title, production company, country, duration, year, etc.)
@@ -19,7 +19,7 @@ names: Names of people involved (directors, actors, writers)
 
 ratings: IMDb ratings and total votes for each movie
 
-🛢️ Database Schema and Relationships
+# 🛢️ Database Schema and Relationships
 The IMDb database is structured with six main tables. Here’s how they are connected:
 
 Table: movie Primary Key: id Columns: id, title, date_published, duration, country, worlwide_gross_income, production_company, etc.
@@ -46,7 +46,7 @@ Foreign Key: movie_id → movie.id
 
 Description: Stores IMDb rating and votes for each movie.
 
-📄 SQL Query Sections
+# 📄 SQL Query Sections
 --Basic Joins 1.Retrieve all movies along with their directors 2.Get all movies and their genres 3.List all actors along with the movies they have acted in 4.Get all movies and their corresponding writers 5.Retrieve all users who have rated movies along with the rating they provided
 
 --Inner Joins 1.Find names of actors who have acted in at least one movie 2.List directors who have directed more than 5 movies 3.Retrieve movies that have at least one review 4.List movies along with production company names 5.Fetch movies with their country of origin
@@ -59,11 +59,11 @@ Description: Stores IMDb rating and votes for each movie.
 
 --Partition By and Window Function Queries 1.Retrieve top 5 highest-rated movies per genre using RANK() 2.Find cumulative revenue ordered by release date using SUM() OVER() 3.Get previous movie rating using LAG() 4.Get next movie rating using LEAD() 5.Retrieve average movie rating per genre 6.Rank movies within each genre using DENSE_RANK() 7.Find running total of box office earnings for movies after 2000 8.Find first and last movie released for each director 9.Compute difference in box office earnings between consecutive movies 10.Find total number of movies each actor has acted in
 
-🛠️ Tools Used
+# 🛠️ Tools Used
 SQL (MySQL, PostgreSQL, or any RDBMS) IMDb Dataset (CSV files)
 
-📋 How to Run
+# 📋 How to Run
 1.Import all CSV files into your SQL database. 2.Create respective tables (movie, genre, names, director_mapping, role_mapping, ratings). 3.Execute the SQL queries provided in the project. 4.Analyze the results for insights.
 
-📌 Notes
+# 📌 Notes
 1.Right join queries assume movie attributes (like genre, country) might exist independently. 2.Window functions are used for advanced analysis (rankings, running totals, comparisons). 3.Some simplifications are made for project practice purposes
